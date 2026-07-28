@@ -1,0 +1,6 @@
+interface:
+  display_name: "Qiushi Skill"
+  short_description: "从零启动、复杂攻坚、方案迭代的求是工作流"
+  default_prompt: "使用 qiushi-skill 的求是工作流帮我梳理并推进这个任务。"
+policy:
+  allow_implicit_invocation: true

@@ -203,7 +203,7 @@ mass-line → contradiction-analysis → practice-cognition → criticism-self-c
 | 面对全新的项目/任务，不知道从哪里下手 | Workflow 1：新项目启动 |
 | 有一个具体的疑难问题，需要找到根因并解决 | Workflow 2：复杂问题攻坚 |
 | 已有方案但效果不理想，需要迭代优化 | Workflow 3：方案迭代优化 |
-| 以上都不完全符合 | 回到 `arming-thought` 的调度表，单独调用最匹配的 skill |
+| 以上都不完全符合 | 在本包的内部方法地图中选择最匹配的方法；如果仍不确定，先向用户确认目标和约束 |
 
 ## 数据传递规则
 

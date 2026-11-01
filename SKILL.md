@@ -1,6 +1,7 @@
 ---
 name: qiushi-skill
-description: Trigger when the user types /qiushi-skill, qiushi-skill, 求是工作流, or asks Qoder to start a qiushi workflow. This is the single public Qoder Skill entry point for the packaged method library. Run one method alone when the user names one (矛盾分析法, 调查研究, 集中兵力, 实践认知, 批评与自我批评, 统筹兼顾, 群众路线, 持久战略, 星火燎原), then report only that method's output; run the full packaged workflow when they invoke the entry point without naming a method. Internal methods are bundled references and must not appear or be invoked as separate Skills or custom Agents.
+description: Apply automatically to non-trivial planning, diagnosis, prioritization, decision-making, and review work without waiting to be invoked, picking the single matching method from the internal map as the thinking frame. Also trigger when the user types /qiushi-skill, qiushi-skill, 求是工作流, or names a method (矛盾分析法, 调查研究, 集中兵力, 实践认知, 批评与自我批评, 统筹兼顾, 群众路线, 持久战略, 星火燎原). When one method is named, run only that method and report its output; otherwise run the full packaged workflow. This is the single public Qoder Skill entry point; internal methods are bundled references and must not appear or be invoked as separate Skills or custom Agents.
+when_to_use: Automatically for planning, diagnosing, prioritizing, deciding, or reviewing non-trivial work; also on explicit qiushi invocations or when the user names one of the ten methods. Skip for trivial lookups, single-file edits, and pure Q&A.
 ---
 
 # Qiushi Skill
